@@ -5,7 +5,7 @@ import (
 	"compress/gzip"
 	"encoding/base64"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"unicode/utf8"
 

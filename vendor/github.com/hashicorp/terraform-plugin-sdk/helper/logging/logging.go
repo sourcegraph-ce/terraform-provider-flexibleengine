@@ -3,7 +3,7 @@ package logging
 import (
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"strings"
 	"syscall"

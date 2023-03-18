@@ -10,7 +10,7 @@ package google
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 
 	"golang.org/x/oauth2"

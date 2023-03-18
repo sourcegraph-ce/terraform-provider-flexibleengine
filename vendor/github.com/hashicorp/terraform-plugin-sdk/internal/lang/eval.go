@@ -2,7 +2,7 @@ package lang
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 
 	"github.com/hashicorp/hcl2/ext/dynblock"

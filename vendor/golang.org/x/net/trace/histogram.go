@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"fmt"
 	"html/template"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"sync"
 

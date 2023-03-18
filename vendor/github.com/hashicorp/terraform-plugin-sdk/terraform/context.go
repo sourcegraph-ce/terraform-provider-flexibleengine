@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 
 	"github.com/hashicorp/terraform-plugin-sdk/internal/addrs"

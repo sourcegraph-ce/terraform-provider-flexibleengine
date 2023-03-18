@@ -3,7 +3,7 @@ package plugin
 import (
 	"context"
 	"errors"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 
 	"github.com/zclconf/go-cty/cty"

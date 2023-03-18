@@ -9,7 +9,7 @@ import (
 	"bytes"
 	"errors"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 // debugTransport if set, will print packet types as they go over the

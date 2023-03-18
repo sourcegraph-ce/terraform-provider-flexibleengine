@@ -2,7 +2,7 @@ package flexibleengine
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
