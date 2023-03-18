@@ -271,7 +271,7 @@ var (
 		"js":      "text/javascript",
 		"json":    "application/json",
 		"latex":   "application/x-latex",
-		"log":     "text/plain",
+		log "github.com/sourcegraph-ce/logrus":     "text/plain",
 		"m4a":     "audio/mp4",
 		"m4v":     "video/mp4",
 		"mid":     "audio/midi",

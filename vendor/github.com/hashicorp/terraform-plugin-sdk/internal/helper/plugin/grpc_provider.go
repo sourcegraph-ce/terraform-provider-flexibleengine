@@ -3,7 +3,7 @@ package plugin
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 
 	"github.com/zclconf/go-cty/cty"

@@ -2,7 +2,7 @@ package flexibleengine
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sort"
 
 	"github.com/huaweicloud/golangsdk/openstack/imageservice/v2/images"

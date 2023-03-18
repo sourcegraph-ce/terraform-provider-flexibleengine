@@ -1,7 +1,7 @@
 package alarmrule
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/huaweicloud/golangsdk"
 )

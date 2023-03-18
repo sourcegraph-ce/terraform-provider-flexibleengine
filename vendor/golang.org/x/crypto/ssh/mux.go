@@ -8,7 +8,7 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 	"sync/atomic"
 )

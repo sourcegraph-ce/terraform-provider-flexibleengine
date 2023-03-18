@@ -7,7 +7,7 @@ package timeseries // import "golang.org/x/net/internal/timeseries"
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 )
 

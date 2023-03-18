@@ -2,7 +2,7 @@ package terraform
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sort"
 
 	"github.com/hashicorp/terraform-plugin-sdk/internal/addrs"

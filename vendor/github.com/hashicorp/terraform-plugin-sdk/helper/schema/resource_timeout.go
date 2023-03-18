@@ -2,7 +2,7 @@ package schema
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/internal/configs/hcl2shim"

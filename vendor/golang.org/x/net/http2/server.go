@@ -33,7 +33,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"net"
 	"net/http"

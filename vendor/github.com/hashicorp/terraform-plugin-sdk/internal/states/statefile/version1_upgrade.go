@@ -2,7 +2,7 @@ package statefile
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/mitchellh/copystructure"
 )

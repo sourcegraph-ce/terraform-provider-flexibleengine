@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/internal/addrs"
 	"github.com/hashicorp/terraform-plugin-sdk/internal/configs"

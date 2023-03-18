@@ -3,7 +3,7 @@ package plugin
 import (
 	"encoding/binary"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"sync"
 	"sync/atomic"

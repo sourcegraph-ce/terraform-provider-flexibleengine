@@ -74,7 +74,7 @@ func (s *Scope) Functions() map[string]function.Function {
 			"keys":             funcs.KeysFunc,
 			"length":           funcs.LengthFunc,
 			"list":             funcs.ListFunc,
-			"log":              funcs.LogFunc,
+			log "github.com/sourcegraph-ce/logrus":              funcs.LogFunc,
 			"lookup":           funcs.LookupFunc,
 			"lower":            stdlib.LowerFunc,
 			"map":              funcs.MapFunc,

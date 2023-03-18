@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"regexp"
 	"sort"

@@ -5,7 +5,7 @@ import (
 
 	"github.com/huaweicloud/golangsdk/openstack/networking/v2/routes"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
