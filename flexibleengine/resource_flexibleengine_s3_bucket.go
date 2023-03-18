@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"regexp"
 	"strings"

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 
 	plugin "github.com/hashicorp/go-plugin"

@@ -2,7 +2,7 @@ package flexibleengine
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"crypto/sha1"
 	"encoding/hex"

@@ -2,7 +2,7 @@ package dag
 
 import (
 	"errors"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 	"time"
 

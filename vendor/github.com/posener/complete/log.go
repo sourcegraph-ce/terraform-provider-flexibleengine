@@ -2,7 +2,7 @@ package complete
 
 import (
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 )
 

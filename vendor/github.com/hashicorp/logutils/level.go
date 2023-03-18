@@ -51,7 +51,7 @@ func (f *LevelFilter) Check(line []byte) bool {
 
 func (f *LevelFilter) Write(p []byte) (n int, err error) {
 	// Note in general that io.Writer can receive any byte sequence
-	// to write, but the "log" package always guarantees that we only
+	// to write, but the log "github.com/sourcegraph-ce/logrus" package always guarantees that we only
 	// get a single line. We use that as a slight optimization within
 	// this method, assuming we're dealing with a single, complete line
 	// of log data.

@@ -2,7 +2,7 @@ package plugin
 
 import (
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func copyStream(name string, dst io.Writer, src io.Reader) {

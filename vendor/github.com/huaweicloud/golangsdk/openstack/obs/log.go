@@ -3,7 +3,7 @@ package obs
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path/filepath"
 	"runtime"

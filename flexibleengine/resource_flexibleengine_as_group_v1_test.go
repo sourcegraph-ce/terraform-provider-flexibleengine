@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 
 	"github.com/huaweicloud/golangsdk/openstack/autoscaling/v1/groups"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func TestAccASV1Group_basic(t *testing.T) {
