@@ -224,7 +224,7 @@ To create and play with a Test object:
 	package main
 
 	import (
-		"log"
+		log "github.com/sourcegraph-ce/logrus"
 
 		"github.com/golang/protobuf/proto"
 		pb "./example.pb"
@@ -266,7 +266,7 @@ package proto
 import (
 	"encoding/json"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"sort"
 	"strconv"

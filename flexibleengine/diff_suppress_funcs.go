@@ -3,7 +3,7 @@ package flexibleengine
 import (
 	"bytes"
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/url"
 	"reflect"
 	"sort"

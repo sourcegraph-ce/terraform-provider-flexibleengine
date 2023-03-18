@@ -40,7 +40,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"reflect"
 	"sort"

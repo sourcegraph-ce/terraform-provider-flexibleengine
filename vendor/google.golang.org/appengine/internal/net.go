@@ -8,7 +8,7 @@ package internal
 // It is only used for API calls.
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"runtime"
 	"sync"

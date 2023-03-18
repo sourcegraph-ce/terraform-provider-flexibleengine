@@ -7,7 +7,7 @@
 package internal
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"os"
 	"strings"

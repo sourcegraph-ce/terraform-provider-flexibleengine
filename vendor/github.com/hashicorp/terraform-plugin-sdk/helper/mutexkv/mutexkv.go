@@ -1,7 +1,7 @@
 package mutexkv
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 )
 

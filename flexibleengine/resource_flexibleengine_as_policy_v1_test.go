@@ -8,7 +8,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 
 	"github.com/huaweicloud/golangsdk/openstack/autoscaling/v1/policies"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func TestAccASV1Policy_basic(t *testing.T) {

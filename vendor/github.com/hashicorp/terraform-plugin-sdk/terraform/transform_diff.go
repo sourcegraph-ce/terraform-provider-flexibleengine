@@ -2,7 +2,7 @@ package terraform
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/internal/dag"
 	"github.com/hashicorp/terraform-plugin-sdk/internal/plans"

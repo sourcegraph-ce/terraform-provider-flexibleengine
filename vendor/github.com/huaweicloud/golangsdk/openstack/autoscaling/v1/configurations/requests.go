@@ -2,7 +2,7 @@ package configurations
 
 import (
 	"encoding/base64"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/huaweicloud/golangsdk"
 	"github.com/huaweicloud/golangsdk/pagination"
